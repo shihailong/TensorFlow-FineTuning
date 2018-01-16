@@ -34,6 +34,8 @@ daisy 0.00190484
 roses 0.000335968  
 ```
 ## 参考资料
+https://github.com/tensorflow/tensorflow/tree/master/tensorflow/examples/image_retraining  
+https://github.com/tensorflow/tensorflow/tree/master/tensorflow/examples/label_image  
 https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#0  
 https://codelabs.developers.google.com/codelabs/tensorflow-for-poets-2/#0  
 https://codelabs.developers.google.com/codelabs/tensorflow-for-poets-2-tflite/#0  
