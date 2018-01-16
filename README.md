@@ -1,11 +1,11 @@
 # TensorFlow-FineTuning
 
-# Step 1: 下载并解压数据集  
+## Step 1: 下载并解压数据集  
 ```shell
 curl http://download.tensorflow.org/example_images/flower_photos.tgz  
 tar xz -C /home/shl/Datasets/
 ```
-# Step 2: 训练
+## Step 2: 训练
 ```shell
 python3 retrain.py \
   --bottleneck_dir=./train/bottlenecks \
@@ -18,7 +18,7 @@ python3 retrain.py \
 ```
 训练完成之后会生成两个文件：retrained_graph.pb & retrained_labels.txt。  
 这两个文件在预测的时候要用到  
-# Step 3: 预测
+## Step 3: 预测
 ```shell
 python3 label_image.py \
   --graph=train/retrained_graph.pb \
@@ -33,3 +33,7 @@ tulips 0.0261172
 daisy 0.00190484  
 roses 0.000335968  
 ```
+## 参考资料
+https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#0  
+https://codelabs.developers.google.com/codelabs/tensorflow-for-poets-2/#0  
+https://codelabs.developers.google.com/codelabs/tensorflow-for-poets-2-tflite/#0  
